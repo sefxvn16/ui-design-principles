@@ -1,8 +1,8 @@
 # UI design principles
 
-A reusable skill for designing, modifying, and reviewing web, app, and game interfaces through architectural principles of spatial organization.
+A reusable skill that translates architectural design principles into rules for designing, modifying, and reviewing web, app, and game interfaces.
 
-It helps coding agents organize primary and secondary regions, establish visual hierarchy, align related elements, and check whether a layout supports the user's task.
+It adapts principles of spatial organization, hierarchy, axes and datums, proportion, rhythm, and the relationship between solid and empty space to UI layout. Coding agents use these rules to prioritize the primary workspace, organize supporting regions, establish alignment, and check the resulting interface. Project-specific decisions are recorded in `DESIGN.md` for later work to follow and verify.
 
 ## What it covers
 
