@@ -15,6 +15,8 @@ Apply project-specific rules only within their project. When a specialized UI sk
 
 ## B. Define the Task
 
+**Intended users:** at the start, establish who the interface is for: age group, country/region, language, cultural context, and familiarity with technology. If this information is missing, ask the user before choosing a design direction; do not ask again for facts already established. Use this information to guide presentation, density, typography, color, icons, and interaction; do not infer preferences solely from age or nationality.
+
 Use available information to identify the intended outcome, content, primary object, devices, usage context, and relevant constraints. Distinguish new design, local changes, and review. For existing projects, inspect relevant conventions, components, and tokens before proposing changes.
 
 Ask only when missing information would change the design direction; do not ask again for information already available. When the task can proceed with current information, state limitations or assumptions that affect the proposal. If conflicting constraints require a major decision, explain the trade-offs for the user to decide.

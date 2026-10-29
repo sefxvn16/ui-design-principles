@@ -1,11 +1,14 @@
 # UI design principles
 
+[English](README.md) | [Tiếng Việt](README.vi.md)
+
 A reusable skill that translates architectural design principles into rules for designing, modifying, and reviewing web, app, and game interfaces.
 
 It adapts principles of spatial organization, hierarchy, axes and datums, proportion, rhythm, and the relationship between solid and empty space to UI layout. Coding agents use these rules to prioritize the primary workspace, organize supporting regions, establish alignment, and check the resulting interface. Project-specific decisions are recorded in `DESIGN.md` for later work to follow and verify.
 
 ## What it covers
 
+- Establish the intended users before choosing a design direction: age group, country/region, language, cultural context, and familiarity with technology. Ask for missing information without inferring preferences from demographics alone.
 - Primary regions get the position, space, and visibility needed for observation and interaction. Secondary regions support them.
 - Alignment uses explicit references: frame edges, text edges, baselines, centers, and visible artwork.
 - Grouping, proportion, empty space, rhythm, and control boundaries reflect content and function.
@@ -20,6 +23,7 @@ The skill does not prescribe a visual style, framework, or universal spacing sca
 | --- | --- |
 | [SKILL.md](SKILL.md) | Vietnamese skill entrypoint |
 | [SKILL.en.md](SKILL.en.md) | Full English translation |
+| [README.vi.md](README.vi.md) | Vietnamese documentation |
 
 ## Use
 

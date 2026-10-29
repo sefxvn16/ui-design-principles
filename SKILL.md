@@ -15,6 +15,8 @@ Giữ các ràng buộc về tính năng, luồng nghiệp vụ và luật chơi
 
 ## B. Xác định nhiệm vụ
 
+**Đối tượng sử dụng:** khi bắt đầu, xác định giao diện dành cho ai: nhóm tuổi, quốc gia/khu vực, ngôn ngữ, bối cảnh văn hóa và mức quen thuộc với công nghệ. Nếu chưa có thông tin, hỏi người dùng trước khi chọn hướng thiết kế; không hỏi lại dữ kiện đã rõ. Dùng thông tin này để quyết định cách trình bày, mật độ, chữ, màu, biểu tượng và tương tác; không suy diễn sở thích chỉ từ tuổi hoặc quốc tịch.
+
 Từ thông tin có sẵn, xác định kết quả cần đạt, nội dung, đối tượng chính, thiết bị, cách sử dụng và ràng buộc liên quan. Phân biệt thiết kế mới, sửa cục bộ và review. Với dự án có sẵn, xem quy ước, component và token liên quan trước khi đề xuất thay đổi.
 
 Chỉ hỏi khi dữ liệu thiếu làm đổi hướng thiết kế; không hỏi lại dữ kiện đã có. Khi có thể tiếp tục với thông tin hiện tại, nêu giới hạn hoặc giả định có ảnh hưởng đến phương án. Nếu xung đột ràng buộc đòi quyết định lớn, nêu đánh đổi để người dùng quyết định.
