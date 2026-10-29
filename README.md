@@ -21,8 +21,8 @@ The skill does not prescribe a visual style, framework, or universal spacing sca
 
 | File | Purpose |
 | --- | --- |
-| [SKILL.md](SKILL.md) | Vietnamese skill entrypoint |
-| [SKILL.en.md](SKILL.en.md) | Full English translation |
+| [SKILL.md](ui-design-principles/SKILL.md) | Vietnamese skill entrypoint |
+| [SKILL.en.md](ui-design-principles/SKILL.en.md) | Full English translation |
 | [README.vi.md](README.vi.md) | Vietnamese documentation |
 
 ## Use

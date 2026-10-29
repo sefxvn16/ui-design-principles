@@ -21,8 +21,8 @@ Skill không quy định phong cách hình ảnh, framework hoặc thang khoản
 
 | File | Vai trò |
 | --- | --- |
-| [SKILL.md](SKILL.md) | Bản skill tiếng Việt |
-| [SKILL.en.md](SKILL.en.md) | Bản dịch đầy đủ tiếng Anh |
+| [SKILL.md](ui-design-principles/SKILL.md) | Bản skill tiếng Việt |
+| [SKILL.en.md](ui-design-principles/SKILL.en.md) | Bản dịch đầy đủ tiếng Anh |
 | [README.md](README.md) | Tài liệu tiếng Anh |
 
 ## Sử dụng
