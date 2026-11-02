@@ -8,14 +8,16 @@ It adapts principles of spatial organization, hierarchy, axes and datums, propor
 
 ## What it covers
 
-- Establish the intended users before choosing a design direction: age group, country/region, language, cultural context, and familiarity with technology. Ask for missing information without inferring preferences from demographics alone.
-- Primary regions get the position, space, and visibility needed for observation and interaction. Secondary regions support them.
+- Establish the intended users: age group, country/region, language, cultural context, and familiarity with technology. Ask only for missing information that could change a design decision, without inferring preferences from demographics alone.
+- Set the level of intervention (local change, refinement, redesign, review) and the screen type (Operate, Read, Persuade, Experience, Play), which determines density, repetition, and layout freedom.
+- Primary regions get the position, space, and visibility needed for observation and interaction. Secondary regions support them, and the reading path follows the action path.
 - Alignment uses explicit references: frame edges, text edges, baselines, centers, and visible artwork.
-- Grouping, proportion, empty space, rhythm, and control boundaries reflect content and function.
-- Responsive changes preserve roles, priorities, and context.
-- Reviews distinguish measured results, image observations, and untested assumptions.
+- Spacing follows a fixed order (within a group < between groups < between regions); every large empty area has a nameable role; containers express a scope.
+- Responsive changes inherit project breakpoints and preserve roles, priorities, and context. Variable content, states, overlays, and scroll regions are checked for clipping, obscuring, and layout shift.
+- Mandatory numeric thresholds come only from public standards (WCAG target size, contrast, visible focus) or the project's `DESIGN.md`.
+- Verification uses named tests (squint, skeleton, 5-second, task path, edges and layers) and same-condition before–after comparison. Review findings record location, reference, observation → consequence → remedy, P0–P3 severity, and evidence type.
 
-The skill does not prescribe a visual style, framework, or universal spacing scale. It preserves project constraints and authorization boundaries.
+Each rule states its condition, required behavior, exceptions, and signs of failure. The skill does not prescribe a visual style, framework, or universal spacing scale. It preserves project constraints and authorization boundaries.
 
 ## Files and languages
 

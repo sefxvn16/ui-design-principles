@@ -8,14 +8,16 @@ Skill vận dụng tổ chức không gian, phân cấp, trục và datum, tỷ 
 
 ## Nội dung
 
-- Xác định đối tượng sử dụng trước khi chọn hướng thiết kế: nhóm tuổi, quốc gia/khu vực, ngôn ngữ, bối cảnh văn hóa và mức quen thuộc với công nghệ. Hỏi thông tin còn thiếu, không suy diễn sở thích chỉ từ đặc điểm nhân khẩu học.
-- Ưu tiên vị trí, diện tích và tầm nhìn của vùng chính để người dùng quan sát và thao tác; vùng phụ hỗ trợ vùng chính.
+- Xác định đối tượng sử dụng: nhóm tuổi, quốc gia/khu vực, ngôn ngữ, bối cảnh văn hóa và mức quen thuộc với công nghệ. Chỉ hỏi thông tin còn thiếu khi câu trả lời có thể đổi quyết định thiết kế, không suy diễn sở thích chỉ từ đặc điểm nhân khẩu học.
+- Xác định mức can thiệp (sửa cục bộ, tinh chỉnh, thiết kế lại, review) và loại màn (Thao tác, Đọc, Thuyết phục, Trải nghiệm, Chơi); loại màn quyết định mật độ, mức lặp và mức tự do bố cục.
+- Ưu tiên vị trí, diện tích và tầm nhìn của vùng chính để người dùng quan sát và thao tác; vùng phụ hỗ trợ vùng chính; đường đọc đi theo đường thao tác.
 - Căn theo chuẩn rõ ràng: mép khung, mép chữ, baseline, tâm và vùng hình nhìn thấy.
-- Tổ chức nhóm, tỷ lệ, khoảng trống, nhịp và phạm vi điều khiển theo nội dung và công năng.
-- Giữ vai trò, thứ tự ưu tiên và ngữ cảnh khi đổi bố cục responsive.
-- Phân biệt số đo thực, quan sát từ ảnh và giả định chưa kiểm chứng khi rà soát.
+- Khoảng cách theo thứ tự cố định (trong nhóm < giữa nhóm < giữa vùng); mỗi vùng trống lớn có vai trò nêu được; mỗi vùng bao biểu đạt một phạm vi.
+- Đổi bố cục responsive kế thừa breakpoint của dự án, giữ vai trò, thứ tự ưu tiên và ngữ cảnh. Nội dung, trạng thái biến đổi, lớp nổi và vùng cuộn được kiểm để không bị cắt, che hoặc xê dịch.
+- Ngưỡng số bắt buộc chỉ lấy từ chuẩn công khai (WCAG về vùng chạm, tương phản, focus nhìn thấy) hoặc `DESIGN.md` của dự án.
+- Kiểm bằng các phép thử có tên (squint, skeleton, 5 giây, đường tác vụ, mép và lớp) và so trước–sau trên cùng điều kiện. Phát hiện khi review ghi vị trí, chuẩn so sánh, quan sát → hệ quả → hướng sửa, mức P0–P3 và loại bằng chứng.
 
-Skill không quy định phong cách hình ảnh, framework hoặc thang khoảng cách cố định. Các ràng buộc dự án và giới hạn quyền thao tác vẫn được giữ.
+Mỗi quy tắc nêu điều kiện áp dụng, hành vi bắt buộc, ngoại lệ và dấu hiệu không đạt. Skill không quy định phong cách hình ảnh, framework hoặc thang khoảng cách cố định. Các ràng buộc dự án và giới hạn quyền thao tác vẫn được giữ.
 
 ## File và ngôn ngữ
 
