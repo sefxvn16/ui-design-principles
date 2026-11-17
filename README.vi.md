@@ -11,7 +11,8 @@ Skill vận dụng tổ chức không gian, phân cấp, trục và datum, tỷ 
 - Xác định đối tượng sử dụng: nhóm tuổi, quốc gia/khu vực, ngôn ngữ, bối cảnh văn hóa và mức quen thuộc với công nghệ. Chỉ hỏi thông tin còn thiếu khi câu trả lời có thể đổi quyết định thiết kế, không suy diễn sở thích chỉ từ đặc điểm nhân khẩu học.
 - Xác định mức can thiệp (sửa cục bộ, tinh chỉnh, thiết kế lại, review) và loại màn (Thao tác, Đọc, Thuyết phục, Trải nghiệm, Chơi); loại màn quyết định mật độ, mức lặp và mức tự do bố cục.
 - Ưu tiên vị trí, diện tích và tầm nhìn của vùng chính để người dùng quan sát và thao tác; vùng phụ hỗ trợ vùng chính; đường đọc đi theo đường thao tác.
-- Căn theo chuẩn rõ ràng: mép khung, mép chữ, baseline, tâm và vùng hình nhìn thấy.
+- Căn theo chuẩn rõ ràng: mép khung, mép chữ, baseline, tâm và vùng hình nhìn thấy. Cấu trúc đến từ trục căn chung thay vì khung viền; các cột cạnh nhau kết thúc trên đường đáy chung; bảng giữ nhãn và số trên mép cố định.
+- Quy tắc riêng nền tảng nằm ở file riêng, chỉ đọc khi cần: `references/desktop.md` (chuột, trackpad, bàn phím trên Windows/macOS) và `references/touch.md` (cảm ứng trên tablet, mobile).
 - Khoảng cách theo thứ tự cố định (trong nhóm < giữa nhóm < giữa vùng); mỗi vùng trống lớn có vai trò nêu được; mỗi vùng bao biểu đạt một phạm vi.
 - Đổi bố cục responsive kế thừa breakpoint của dự án, giữ vai trò, thứ tự ưu tiên và ngữ cảnh. Nội dung, trạng thái biến đổi, lớp nổi và vùng cuộn được kiểm để không bị cắt, che hoặc xê dịch.
 - Ngưỡng số bắt buộc chỉ lấy từ chuẩn công khai (WCAG về vùng chạm, tương phản, focus nhìn thấy) hoặc `DESIGN.md` của dự án.
@@ -25,11 +26,13 @@ Mỗi quy tắc nêu điều kiện áp dụng, hành vi bắt buộc, ngoại l
 | --- | --- |
 | [SKILL.md](ui-design-principles/SKILL.md) | Bản skill tiếng Việt |
 | [SKILL.en.md](ui-design-principles/SKILL.en.md) | Bản dịch đầy đủ tiếng Anh |
+| [references/desktop.md](ui-design-principles/references/desktop.md), [desktop.en.md](ui-design-principles/references/desktop.en.md) | Quy tắc desktop (chuột, trackpad, bàn phím), tiếng Việt và tiếng Anh |
+| [references/touch.md](ui-design-principles/references/touch.md), [touch.en.md](ui-design-principles/references/touch.en.md) | Quy tắc cảm ứng (tablet, mobile), tiếng Việt và tiếng Anh |
 | [README.md](README.md) | Tài liệu tiếng Anh |
 
 ## Sử dụng
 
-Với AI hỗ trợ skill, đặt `SKILL.md` trong thư mục `ui-design-principles` tại nơi AI đó đọc skill. Để dùng tiếng Anh, chép nội dung `SKILL.en.md` vào `SKILL.md` trong thư mục cài đặt. Mỗi bản cài chỉ dùng một ngôn ngữ hoạt động.
+Với AI hỗ trợ skill, chép cả thư mục `ui-design-principles` (gồm `references/`) vào nơi AI đó đọc skill. Để dùng tiếng Anh, chép nội dung `SKILL.en.md` vào `SKILL.md` trong thư mục cài đặt; bản tiếng Anh dẫn tới các file `*.en.md`. Mỗi bản cài chỉ dùng một ngôn ngữ hoạt động.
 
 Cũng có thể cung cấp trực tiếp một trong hai file cho AI cùng yêu cầu có phạm vi rõ, ví dụ:
 

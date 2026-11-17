@@ -11,7 +11,8 @@ It adapts principles of spatial organization, hierarchy, axes and datums, propor
 - Establish the intended users: age group, country/region, language, cultural context, and familiarity with technology. Ask only for missing information that could change a design decision, without inferring preferences from demographics alone.
 - Set the level of intervention (local change, refinement, redesign, review) and the screen type (Operate, Read, Persuade, Experience, Play), which determines density, repetition, and layout freedom.
 - Primary regions get the position, space, and visibility needed for observation and interaction. Secondary regions support them, and the reading path follows the action path.
-- Alignment uses explicit references: frame edges, text edges, baselines, centers, and visible artwork.
+- Alignment uses explicit references: frame edges, text edges, baselines, centers, and visible artwork. Structure comes from shared axes rather than borders; side-by-side columns end on a shared bottom line; tables keep labels and numbers on fixed edges.
+- Platform-specific rules live in separate files read only when needed: `references/desktop.md` (mouse, trackpad, keyboard on Windows/macOS) and `references/touch.md` (tablet and mobile touch).
 - Spacing follows a fixed order (within a group < between groups < between regions); every large empty area has a nameable role; containers express a scope.
 - Responsive changes inherit project breakpoints and preserve roles, priorities, and context. Variable content, states, overlays, and scroll regions are checked for clipping, obscuring, and layout shift.
 - Mandatory numeric thresholds come only from public standards (WCAG target size, contrast, visible focus) or the project's `DESIGN.md`.
@@ -25,11 +26,13 @@ Each rule states its condition, required behavior, exceptions, and signs of fail
 | --- | --- |
 | [SKILL.md](ui-design-principles/SKILL.md) | Vietnamese skill entrypoint |
 | [SKILL.en.md](ui-design-principles/SKILL.en.md) | Full English translation |
+| [references/desktop.md](ui-design-principles/references/desktop.md), [desktop.en.md](ui-design-principles/references/desktop.en.md) | Desktop rules (mouse, trackpad, keyboard), Vietnamese and English |
+| [references/touch.md](ui-design-principles/references/touch.md), [touch.en.md](ui-design-principles/references/touch.en.md) | Touch rules (tablet, mobile), Vietnamese and English |
 | [README.vi.md](README.vi.md) | Vietnamese documentation |
 
 ## Use
 
-For a skill-compatible agent, place `SKILL.md` in a `ui-design-principles` folder under that agent's skill directory. To use English, copy the contents of `SKILL.en.md` into the installed folder's `SKILL.md`. Keep one active language version per installation.
+For a skill-compatible agent, copy the whole `ui-design-principles` folder (including `references/`) into that agent's skill directory. To use English, copy the contents of `SKILL.en.md` into the installed folder's `SKILL.md`; the English entrypoint points to the `*.en.md` reference files. Keep one active language version per installation.
 
 You can also provide either file directly to an agent with a scoped request, for example:
 

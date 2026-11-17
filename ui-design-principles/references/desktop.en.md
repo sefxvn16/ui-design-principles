@@ -1,0 +1,10 @@
+# Desktop: mouse, trackpad, keyboard (Windows, macOS)
+
+Read when the product uses a mouse, trackpad, or keyboard and the task touches controls or layout that depends on window size. The shared rules in `SKILL.md` still apply; this file adds only what changes the layout. This skill does not prescribe differences between Windows and macOS; a native app for one operating system follows that platform's guidelines or `DESIGN.md`.
+
+- **Resizable windows:** the viewport is whatever size the user drags, not a list of devices. Identify the smallest window the product supports (from `DESIGN.md`; if absent, ask when it changes the layout). Check at that window, a common size, and a very wide window. On a very wide window, the primary region does not stretch so far that reading lines become too long or labels drift away from their values. Failure: a two-column table stretched across the screen, with the label on the left and the number half a screen away.
+- **Density:** with a pointer, Operate screens may be denser than the touch version, while keeping the spacing order in C and the minimum target size in E.
+- **Hover:** hover only supplements. Required information or actions must be reachable by click and keyboard; if the product also runs on touch, there must be a touch path. Tooltips do not hold the only information needed for a decision. Failure: a delete button that appears only when hovering over a row.
+- **Keyboard and focus:** focus order follows the action path in C. The focus indicator is visible (WCAG 2.4.7), not obscured by anchored elements (WCAG 2.4.11), and does not resize the element or push neighboring elements. Avoid a double border from the element border plus the focus outline. Failure: focus jumps from the form to the navigation bar and back to the submit button.
+- **Context menus and shortcuts:** never the only path to an action.
+- **Overlays near window edges:** menus and popovers opened near an edge flip or reposition so they are not clipped; recheck when the window is shrunk.
