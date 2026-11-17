@@ -28,6 +28,7 @@ Each rule states its condition, required behavior, exceptions, and signs of fail
 | [SKILL.en.md](ui-design-principles/SKILL.en.md) | Full English translation |
 | [references/desktop.md](ui-design-principles/references/desktop.md), [desktop.en.md](ui-design-principles/references/desktop.en.md) | Desktop rules (mouse, trackpad, keyboard), Vietnamese and English |
 | [references/touch.md](ui-design-principles/references/touch.md), [touch.en.md](ui-design-principles/references/touch.en.md) | Touch rules (tablet, mobile), Vietnamese and English |
+| [references/verify.md](ui-design-principles/references/verify.md), [verify.en.md](ui-design-principles/references/verify.en.md) | Tests, before–after comparison, and review format, Vietnamese and English |
 | [README.vi.md](README.vi.md) | Vietnamese documentation |
 
 ## Use

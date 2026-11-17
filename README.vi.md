@@ -28,6 +28,7 @@ Mỗi quy tắc nêu điều kiện áp dụng, hành vi bắt buộc, ngoại l
 | [SKILL.en.md](ui-design-principles/SKILL.en.md) | Bản dịch đầy đủ tiếng Anh |
 | [references/desktop.md](ui-design-principles/references/desktop.md), [desktop.en.md](ui-design-principles/references/desktop.en.md) | Quy tắc desktop (chuột, trackpad, bàn phím), tiếng Việt và tiếng Anh |
 | [references/touch.md](ui-design-principles/references/touch.md), [touch.en.md](ui-design-principles/references/touch.en.md) | Quy tắc cảm ứng (tablet, mobile), tiếng Việt và tiếng Anh |
+| [references/verify.md](ui-design-principles/references/verify.md), [verify.en.md](ui-design-principles/references/verify.en.md) | Phép thử, so trước–sau và định dạng review, tiếng Việt và tiếng Anh |
 | [README.md](README.md) | Tài liệu tiếng Anh |
 
 ## Sử dụng
